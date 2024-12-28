@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    padding: 10px;
+    color: #007bff;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    text-decoration: none; /* Убираем подчеркивание */
+   
+}
+
+nav {
+    font-family: 'Arial', sans-serif; /* Устанавливаем шрифт для всего меню */
+    font-size: 16px; /* Размер шрифта */
+    font-weight: bold; /* Сделаем шрифт жирным */
+    letter-spacing: 1px; /* Расстояние между буквами */
+    text-transform: uppercase; /* Преобразуем текст в верхний регистр */
+    color: #333; /* Цвет текста */
+    background-color: #f8f9fa; /* Цвет фона */
+    padding: 20px 20px; /* Внутренние отступы */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Легкая тень */
+  }
+  
+  /* Стили для ссылок в навигации */
+  nav a {
+    
+    color: #007bff; /* Цвет ссылок */
+    text-decoration: none; /* Убираем подчеркивание */
+    padding: 10px 15px; /* Внутренние отступы для ссылок */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Плавное изменение при наведении */
+  }
+  
+  /* Стили для ссылок при наведении */
+  nav a:hover {
+   
+    color: white; /* Цвет текста при наведении */
+    background-color: #0056b3; /* Цвет фона при наведении */
+    border-radius: 4px; /* Скругление углов */
+  }
+  
+  /* Для активных ссылок */
+  nav a.active {
+    color: #ffffff; /* Цвет активной ссылки */
+    background-color: #007bff; /* Цвет фона для активной ссылки */
+    border-radius: 10px; /* Скругленные углы для активной ссылки */
+  }
+
+  .container {
+    display: flex;
+    justify-content: center; /* Центрирует изображение по горизонтали */
+    align-items: center; /* Центрирует изображение по вертикали */
+    height: 100vh; /* Занимает всю высоту экрана */
+  }
+
+ 
